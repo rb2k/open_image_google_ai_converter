@@ -1,6 +1,10 @@
 # open_image_google_ai_converter
 This script takes the output of [OIDv6](https://github.com/DmitryRyumin/OIDv6) and creates Google Vision AutoML compatible CSV files.
 
+Requirements:
+You need to install the dimensions gem ("gem install dimensions")
+
+
 Usage:
 ./open_image_google_ai_converter.rb path_to_oidv6_dataset_folder your_google_storage_bucket_name
 
